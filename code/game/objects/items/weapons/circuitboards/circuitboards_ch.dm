@@ -1,4 +1,9 @@
- /obj/item/weapon/circuitboard/precisioneditor
+#ifndef T_BOARD
+#error T_BOARD macro is not defined but we need it!
+#endif
+
+
+/obj/item/weapon/circuitboard/precisioneditor
 	name = T_BOARD("biochemical manipulator")
 	build_path = /obj/item/weapon/circuitboard/precisioneditor
 	board_type = new /datum/frame/frame_types/machine
