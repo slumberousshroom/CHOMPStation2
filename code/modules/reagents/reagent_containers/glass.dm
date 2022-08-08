@@ -243,6 +243,18 @@
 	possible_transfer_amounts = list(5,10,15,25,30,60,120,300)
 	flags = OPENCONTAINER
 	rating = 5
+	
+/obj/item/weapon/reagent_containers/glass/beaker/hybridbeaker
+	name = "hybrid beaker"
+	desc = "A beaker utilizing cutting edge modern technology, and ancient component designs."
+	icon_state = "hybridbeaker"
+	center_of_mass = list("x" = 16,"y" = 11)
+	matter = list(MAT_PLASTEEL = 2000, MAT_VERDANTIUM = 3000, MAT_PLASTIC = 8000, MAT_DIAMOND = 2000)
+	volume = 600
+	amount_per_transfer_from_this = 10
+	possible_transfer_amounts = list(5,10,15,25,30,60,120,300,600)
+	flags = OPENCONTAINER
+	rating = 5
 
 /obj/item/weapon/reagent_containers/glass/beaker/vial
 	name = "vial"
