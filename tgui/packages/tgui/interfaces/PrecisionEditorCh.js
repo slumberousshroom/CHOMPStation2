@@ -2,7 +2,7 @@ import { useBackend } from '../backend';
 import { Button, LabeledList, Section, ColorBox, NoticeBox, Box } from '../components';
 import { Window } from '../layouts';
 
-export const PrecisionEditor = (props, context) => {
+export const PrecisionEditorCh = (props, context) => {
   const { act, data } = useBackend(context);
   // Extract `health` and `color` variables from the `data` object.
   const { screenstate } = data;
