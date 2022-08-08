@@ -56,6 +56,6 @@
 /datum/design/circuit/precisioneditor
 	name = "biochemical manipulator"
 	id = "biochemical manipulator"
-	req_tech = list(TECH_DATA = 3, TECH_BIO = 3)
+	req_tech = list(TECH_DATA = 5, TECH_BIO = 6)
 	build_path = /obj/item/weapon/circuitboard/precisioneditor
 	sort_string = "HGDRF"
