@@ -89,7 +89,7 @@
 	sort_string = "ZBBAA"
 	
  /datum/design/item/precursor/hybridbeaker//chomp edit
-	name = "hybrid beaker"
+	name = "Hybrid Beaker"
 	desc = "A hybrid beaker, powered by experimental ancient alien technology and duct tape. Can hold up to 600 units."
 	id = "hybridbeaker"
 	req_tech = list(TECH_ENGINEERING = 6, TECH_MATERIAL = 5, TECH_BLUESPACE = 2, TECH_MAGNET = 3, TECH_PRECURSOR = 1)
