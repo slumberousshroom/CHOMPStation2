@@ -90,14 +90,14 @@ const BiochemEditor = (props, context) => {
       )}
       <NoticeBox info={1} width={19} height={9} ml={1}>
         {'Available chems to choose are based on the reagents stored in the beaker. '}
-        {' A minimum of 100 units of reagent is required to generate a viable sequence. '}
+        {' A minimum of 400 units of reagent is required to generate a viable sequence. '}//chomp edit
         {'The chosen reagent will be consumed in the process.'}
         <Box bold={1} mt={1}>
           {'This process severely damages genetic integrity.'}
         </Box>
       </NoticeBox>
       <Box width={20} opacity={0.5} ml={1} mt={6} mb={2}>
-        {'Plant will produce 1 additional unit for every 25 units beyond 100'}
+        {'Plant will produce 1 additional unit for every 25 units beyond 400'}//chomp edit 
         {' (modified by potency)'}
       </Box>
       {beakerchems ? (
