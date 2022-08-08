@@ -86,7 +86,7 @@
 /obj/machinery/botany/precisioneditor/tgui_interact(mob/user, datum/tgui/ui = null)
   ui = SStgui.try_update_ui(user, src, ui)
   if(!ui)
-    ui = new(user, src, "PrecisionEditor", name)
+    ui = new(user, src, "PrecisionEditorCh", name)
     ui.open()
 
 /obj/machinery/botany/precisioneditor/tgui_data(mob/user)
