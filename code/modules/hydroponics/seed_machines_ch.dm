@@ -206,7 +206,7 @@
     visible_message("[bicon(src)] Error: The chosen compound is too complex to synthesize biologically.")
     return
   if(chem_amount < 400)
-    visible_message("[bicon(src)] Error: A minimum of 400 [SSchemistry.chemical_reagents[chem_name]] is required to perform this action.") //chomp edit, increased the unit cost to 300 to make it so you need a miner to make a plant make certain chems without using exotic seed RNG
+    visible_message("[bicon(src)] Error: A minimum of 400 [SSchemistry.chemical_reagents[chem_name]] is required to perform this action.") //chomp edit
   
     return
   else
@@ -214,8 +214,7 @@
       seed.seed = seed.seed.diverge(1)
       seed.seed_type = seed.seed.name
       seed.update_seed()
-    var/product_amount = 1 + round((chem_amount - 400) / 25) //would rather that it round down, but no proc for that  //chomp edit mostly left this in in the event bigger beakers are added.
-    //low base value, but scales decently well with higher potency
+    var/product_amount = 1 + round((chem_amount - 400) / 25) //would rather that it round down, but no proc for that  //chomp edit
     seed.seed.chems.Add(list("[chem_name]" = list(product_amount, 12 - product_amount)))
     seed.modified += rand(15,25)
     if(prob(seed.modified))
