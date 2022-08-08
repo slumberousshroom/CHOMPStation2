@@ -88,11 +88,11 @@
 	build_path = /obj/random/janusmodule
 	sort_string = "ZBBAA"
 	
- /datum/design/item/beaker/hybridbeaker
+ /datum/design/item/beaker/hybridbeaker//chomp edit
 	name = hybrid_beaker
 	desc = "A hybrid beaker, powered by experimental ancient alien technology and duct tape. Can hold up to 600 units."
 	id = "hybridbeaker"
 	req_tech = list(TECH_ENGINEERING = 6, TECH_MATERIAL = 5, TECH_BLUESPACE = 2, TECH_MAGNET = 3, TECH_PRECURSOR = 1)
 	materials = list(MAT_PLASTEEL = 2000, MAT_VERDANTIUM = 3000, MAT_PLASTIC = 8000, MAT_DIAMOND = 2000)
 	build_path = /obj/item/weapon/reagent_containers/glass/beaker/bluespace
-	sort_string = "IAAAC"
+	sort_string = "ZBBAF"
